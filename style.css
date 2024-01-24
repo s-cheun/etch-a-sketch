@@ -1,0 +1,14 @@
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+	aspect-ratio: 1 / 1;
+	max-height: 80vh;
+}
+
+.block {
+	box-sizing: border-box;
+	background-color: white;
+	border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
